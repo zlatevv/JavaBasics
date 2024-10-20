@@ -68,7 +68,10 @@ public class FruitShop {
                     default:
                         System.out.println("error");
                         isValid = false;
-                }
+                }break;
+            default:
+                System.out.println("error");
+                isValid = false;
         }if (isValid){
             double total = amount * price;
             System.out.printf("%.2f", total);
